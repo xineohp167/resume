@@ -26,11 +26,11 @@ var work = {
 
 var education = {
 	"schools": [
-		{ "name": "University of Sofia",
-			"datesAttended": "Dates",
+		{ "name": "University of Sofia \" St. Kliment Ohridski \"",
+			"datesAttended": "2012-2014",
 			"location": "Sofia, Bulgaria",
-			"degree": "M.Sc.(Hon) Information Technology",
-			"url": "www.uwindsor.ca"
+			"degree": "M.Sc. Microelectronics and Information Technology",
+			"url": "https://www.uni-sofia.bg/index.php/eng"
 		}
 	],
 	"onlineCourses": [
