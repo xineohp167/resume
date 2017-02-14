@@ -26,23 +26,42 @@ var work = {
 
 var education = {
 	"schools": [
-		{ "name": "University of Sofia \" St. Kliment Ohridski \"",
+		{ "name": "University of Sofia \"St. Kliment Ohridski\"",
 			"datesAttended": "2012-2014",
+			"thesis": "Cellular automata in physical simulations",
 			"location": "Sofia, Bulgaria",
-			"degree": "M.Sc. Microelectronics and Information Technology",
+			"degree": "M.Sc. Microelectronics and Information Technology with golden medal",
+			"url": "https://www.uni-sofia.bg/index.php/eng"
+		},
+		{ "name": "University of Sofia \"St. Kliment Ohridski\"",
+			"datesAttended": "2008-2012",
+			"thesis": "Computer simulations in nonlinear processes - solitons and chaos ",
+			"location": "Sofia, Bulgaria",
+			"degree": "B.Sc. Engineering Physics with distinction",
+			"url": "https://www.uni-sofia.bg/index.php/eng"
+		},
+		{ "name": "University of Sofia \"St. Kliment Ohridski\"",
+			"datesAttended": "2008-2012",
+			"location": "Sofia, Bulgaria",
+			"degree": "B.Sc. Physics with Teaching with distinction",
+			"url": "https://www.uni-sofia.bg/index.php/eng"
+		},
+		{ "name": "High School for electronics \"John Atanasov\"",
+			"location": "Sofia, Bulgaria",
+			"degree": "specialist in electonics with distinction",
 			"url": "https://www.uni-sofia.bg/index.php/eng"
 		}
 	],
 	"onlineCourses": [
 		{ "school": "University of Helsinki",
-			"title": "Object-Oriented Programming with Java, part I",
-			"completed": "2016",
-			"url": "https://drive.google.com/open?id=0B6QKKfa77zdObnpYZHRtdERtZWs"
-		},
-		{ "school": "University of Helsinki",
 			"title": "Object-Oriented Programming with Java, part II",
 			"completed": "2016",
 			"url": "https://drive.google.com/open?id=0B6QKKfa77zdOZGhCYzBqV3N4YkE"
+		},
+		{ "school": "University of Helsinki",
+			"title": "Object-Oriented Programming with Java, part I",
+			"completed": "2016",
+			"url": "https://drive.google.com/open?id=0B6QKKfa77zdObnpYZHRtdERtZWs"
 		},
 		{ "school": "MongoDB University",
 			"title": "MongoDB for Java Developers M101J",
@@ -59,7 +78,7 @@ var education = {
 			"completed": "2014",
 			"url": "https://drive.google.com/open?id=0B6QKKfa77zdOU3d5dnpxc0hXRUk"
 		},
-		{ "school": "University of Illinois at Urbana–Champaign - Coursera",
+		{ "school": "University of Illinois at Urbana-Champaign - Coursera",
 			"title": "Creative, Serious and Playful Science of Android Apps",
 			"completed": "2014",
 			"url": "https://drive.google.com/open?id=0B6QKKfa77zdOcjlBNE9YdmdSdWM"
@@ -191,12 +210,22 @@ education.display = function() {
 
 			var formattedSchoolName = HTMLschoolName.replace("%data%", education.schools[i].name).replace("#", education.schools[i].url);
 			var formattedSchoolDegree = HTMLschoolDegree.replace("%data%", education.schools[i].degree);
-			var formattedSchoolDates = HTMLschoolDates.replace("%data%", education.schools[i].datesAttended);
+			if(education.schools[i].thesis != null){
+				var formattedScholThesis = HTMLschoolThesis.replace("%data%", education.schools[i].thesis);
+			}
+			if(education.schools[i].datesAttended != null){
+				var formattedSchoolDates = HTMLschoolDates.replace("%data%", education.schools[i].datesAttended);
+			}
 			var formattedSchoolLocation = HTMLschoolLocation.replace("%data%", education.schools[i].location);
 
 
 			$(".education-entry:last").append(formattedSchoolName + formattedSchoolDegree);
-			$(".education-entry:last").append(formattedSchoolDates);
+			if(education.schools[i].thesis != null){
+				$(".education-entry:last").append(formattedScholThesis);
+			}
+			if(education.schools[i].datesAttended != null){
+				$(".education-entry:last").append(formattedSchoolDates);
+			}
 			$(".education-entry:last").append(formattedSchoolLocation);
 
 		}
