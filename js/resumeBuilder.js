@@ -146,44 +146,44 @@ var projects = {
 	"projects": [
 		{
 			"title": "Steganography",
-			"datesWorked": "Dates",
-			"description": "Description",
+			"datesWorked": "2012",
+			"description": "Java GUI app for hiding message in image. The secret message is encoded in the image. The initial image and the image with the message have not vissible difference.",
 			"images": []
 		},
 		{
 			"title": "Image Filter",
-			"datesWorked": "Dates",
-			"description": "Description",
+			"datesWorked": "2013",
+			"description": "This image filter was made for photos which has been taken at night or in low light. Using the filter a man can view details in the image which otherwise are invisible.",
 			"images": []
 		},
 		{
 			"title": "Price checker",
-			"datesWorked": "Dates",
-			"description": "Description",
+			"datesWorked": "2013",
+			"description": "Python scripts for price checking. The price of the product is checked from a list of online shops.",
 			"images": []
 		},
 		{
-			"title": "Pdf extractor and searcher",
-			"datesWorked": "Dates",
-			"description": "Description",
+			"title": "Pdf extractor and search engine",
+			"datesWorked": "2014",
+			"description": "Java app for extracting data from pdf files and loading the data in search engine. The data and metadata from pdf files is extracted and loaded in search engine. The search engine can be used with different criteria and filters.",
 			"images": []
 		},
 		{
 			"title": "Online data extractor and visualizer",
-			"datesWorked": "Dates",
-			"description": "Description",
+			"datesWorked": "2015",
+			"description": "Online app which automatically loads and extracts data from different resources. The loaded data is respresented in various charts and graphs. ",
 			"images": []
 		},
 		{
 			"title": "GUI price checker and uploader",
-			"datesWorked": "Dates",
-			"description": "Description",
+			"datesWorked": "2015-2016",
+			"description": "Java GUI app for price checking and automatically uploading the changes to the website. A list of products is loaded and every product is checked for lowest price from concurrent online shops. Than the changes are automatically uploaded to the website.",
 			"images": []
 		},
 		{
-			"title": "Website for class and quiz",
-			"datesWorked": "Dates",
-			"description": "Description",
+			"title": "Quiz Portal",
+			"datesWorked": "2016",
+			"description": "Quiz portal where people can take different quizzes. They can also compare their quiz scores to friends, challenge friends to beat their score, or write and edit quizzes that other people can take.",
 			"images": []
 		}
 	]
