@@ -254,7 +254,7 @@ projects.display = function() {
 		for(i in projects.projects) {
 			$("#projects").append(HTMLprojectStart);
 
-			var formattedProjectTitle = HTMLprojectTitle.replace("%data%", projects.projects[i].title).replace("#", projects.projects[i].url);
+			var formattedProjectTitle = HTMLprojectTitle.replace("%data%", projects.projects[i].title);
 			var formattedProjectDates = HTMLprojectDates.replace("%data%", projects.projects[i].datesWorked);
 			var formattedProjectDescription = HTMLprojectDescription.replace("%data%", projects.projects[i].description);
 
