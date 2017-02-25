@@ -15,11 +15,46 @@ var bio = {
 var work = {
 	"jobs": [
 		{
-			"employer": "Employer",
-			"title": "Title",
-			"location": "Location",
-			"datesWorked": "Dates",
-			"description": "Description"
+			"employer": "Freelancer",
+			"title": "Software Developer and Consultant",
+			"location": "Sofia, Bulgaria",
+			"datesWorked": "2014-2016",
+			"description": "I consulted and developed software for external clients in a variety of languages and platforms. This included design, development and deployment of back end systems as well as front end graphical user interfaces."
+		},
+		{
+			"employer": "GoGoNet",
+			"title": "Admin and Software Developer",
+			"location": "Sofia, Bulgaria",
+			"datesWorked": "2011-2014",
+			"description": "My primary responsibilities involve all aspects of developing, maintaining and supporting the ecommerce software systems. As an admin I had to maintain the website. Also I had to maintain the database. As a developer my work included, but was not limited to, database design, software architecture design, creating GUIs and supporting scripts."
+		},
+		{
+			"employer": "Solid State Physics and Microelectronics Department",
+			"title": "Junior Laborant and Technical Assistant",
+			"location": "Sofia, Bulgaria",
+			"datesWorked": "2010-2014",
+			"description": "I worked on different projects, which were mainly focused on developing and enhancing performance of semiconductor sensors."
+		},
+		{
+			"employer": "Datecs GIS Center",
+			"title": "GIS Operator",
+			"location": "Sofia, Bulgaria",
+			"datesWorked": "2010",
+			"description": "Developing GPS maps for online and mobile applications."
+		},
+		{
+			"employer": "Desbo law firm and real estates agency",
+			"title": "Software Developer",
+			"location": "Sofia, Bulgaria",
+			"datesWorked": "2010",
+			"description": "I was hired to work on system to support working process of the real estates agency. I developed scripts for automatic uploading real estates on the different real estates portals. I also developed GUI for uploading the real estates. And I created one of the firm websites."
+		},
+		{
+			"employer": "LNST at the University of Sofia",
+			"title": "Junior Laborant and Technical Assistant",
+			"location": "Sofia, Bulgaria",
+			"datesWorked": "2008",
+			"description": "I was part of the team for creating thin films of CdSe nanoparticles. Also I helped in creating the software for controlling the dip coating machine."
 		}
 	]
 };
@@ -110,7 +145,43 @@ var education = {
 var projects = {
 	"projects": [
 		{
-			"title": "Title",
+			"title": "Steganography",
+			"datesWorked": "Dates",
+			"description": "Description",
+			"images": []
+		},
+		{
+			"title": "Image Filter",
+			"datesWorked": "Dates",
+			"description": "Description",
+			"images": []
+		},
+		{
+			"title": "Price checker",
+			"datesWorked": "Dates",
+			"description": "Description",
+			"images": []
+		},
+		{
+			"title": "Pdf extractor and searcher",
+			"datesWorked": "Dates",
+			"description": "Description",
+			"images": []
+		},
+		{
+			"title": "Online data extractor and visualizer",
+			"datesWorked": "Dates",
+			"description": "Description",
+			"images": []
+		},
+		{
+			"title": "GUI price checker and uploader",
+			"datesWorked": "Dates",
+			"description": "Description",
+			"images": []
+		},
+		{
+			"title": "Website for class and quiz",
 			"datesWorked": "Dates",
 			"description": "Description",
 			"images": []
@@ -364,7 +435,7 @@ $(function () {
 				data: [[2013, 2.5]]
 			},
 			{
-				name: 'Perl',
+				name: 'PHP',
 				color: 'rgba(210, 200, 0, .5)',
 				data: [[2011, 3], [2013, 1], [2012, 1], [2014, 1]]
 			}]
