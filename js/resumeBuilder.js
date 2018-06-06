@@ -18,7 +18,7 @@ var work = {
 			"employer": "Freelancer",
 			"title": "Software Developer and Consultant",
 			"location": "Sofia, Bulgaria",
-			"datesWorked": "2014-2016",
+			"datesWorked": "2014-2018",
 			"description": "I consulted and developed software for external clients in a variety of languages and platforms. This included design, development and deployment of back end systems as well as front end graphical user interfaces."
 		},
 		{
